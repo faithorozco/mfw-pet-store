@@ -1,3 +1,7 @@
+@import url('http://fonts.googleapis.com/css?family=Satisfy%7COpen+Sans');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
 .logo{
     width:90px;
 
@@ -35,4 +39,54 @@ nav{
     font-family: 'Open sans', sans-serif;
     font-weight: 300;
     color:#fff;
+}
+.product{
+    background-color:#eeddcd;
+    border-radius:5%;
+    border:5px solid rgb(252,252,252);
+
+}
+.featured{ font-family: 'open sans', sans-serif;
+    font-weight: 300;
+    background-color:#fff;
+}
+.featured{
+    margin-bottom:60px;
+}
+.img_box{
+    margin:10px 0px;
+
+}
+.product button{
+    margin-bottom:10px;
+    background-color: rgb(252,252,252);
+    border:1px solid #5c433f;
+}
+
+aside a,footer{
+    background-color: #eeddcd;
+}
+footer{
+    padding-top:20px;
+    max-height: 100%;
+}
+footer a{
+    color:#5c433f;
+}
+footer img{
+    height:90px;
+}
+.contact_info{
+    padding-top:15px;
+    padding-left:40px;
+    border-right: 1px;
+    border-left:1px solid #333;
+}
+.social{
+padding-top:15px;
+}
+footer .fine_print{
+    margin-top:10px;
+    margin-bottom:15px;
+    color:#333;
 }
